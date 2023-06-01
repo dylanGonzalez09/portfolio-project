@@ -13,7 +13,7 @@ export default {
           yellow: '#FDCC49',
           gray: '#ededed',
           'deep-blue': '#010026',
-          'dark-gray': '#757575',
+          'dark-grey': '#757575',
           'opaque-black': 'rgba(0,0,0,0.35)'
         },
         // Colores gradientes
@@ -30,7 +30,7 @@ export default {
         },
         content: {
           // Imagenes en etiquetas css para pasar el mouse
-          brus: 'url("./assets/brus.png")',
+          brush: 'url("./assets/brush.png")',
           person1: 'url("./assets/person-1.png")',
           person2: 'url("./assets/person-2.png")',
           person3: 'url("./assets/person-3.png")',

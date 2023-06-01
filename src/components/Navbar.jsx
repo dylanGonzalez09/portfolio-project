@@ -5,7 +5,7 @@ import Link from "./Link";
 import openMenuIcon from "../assets/menu-icon.svg";
 import closeMenuIcon from "../assets/close-icon.svg";
 
-const Navbar = ({isTopOfPage}) => {
+const Navbar = ({ isTopOfPage }) => {
   const { setIsMenuToggled, isMenuToggled } = useContext(NavbarContext);
   const iseAboveSmallScreens = useMediaQuery("(min-width: 768px)");
   const navbarBackground = isTopOfPage ? "" : "bg-red";
@@ -22,7 +22,7 @@ const Navbar = ({isTopOfPage}) => {
             <Link page="Home" />
             <Link page="Skills" />
             <Link page="Projects" />
-            <Link page="Testimonios" />
+            <Link page="Testimonials" />
             <Link page="Contact" />
           </div>
         ) : (
@@ -51,7 +51,7 @@ const Navbar = ({isTopOfPage}) => {
               <Link page="Home" />
               <Link page="Skills" />
               <Link page="Projects" />
-              <Link page="Testimonios" />
+              <Link page="Testimonials" />
               <Link page="Contact" />
             </div>
           </div>
